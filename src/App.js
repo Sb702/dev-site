@@ -12,7 +12,7 @@ function App() {
       <section className='hero'>
         <div className="hero-content">
           <h1>I'm a Front End Developer</h1>
-          <p>Welcome to my website! I specialize in creating beautiful and responsive user interfaces using the latest web technologies.</p>
+          <p>Welcome to my website! I spedliafnwelaiuhfiuawecialize in creating beautiful and responsive user interfaces using the latest web technologies.</p>
         </div>
       </section>
     </div>
