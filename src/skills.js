@@ -27,7 +27,7 @@ export default function skills() {
                         <img src={process.env.PUBLIC_URL + '/js.png'} alt='HTML' />
                     </div>
                 </div>
-
+ 
                 <div className='skill'>
                     <div className='skill-name'>React</div>
                     <div className='skill-image'>
