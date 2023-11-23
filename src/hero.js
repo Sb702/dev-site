@@ -31,10 +31,8 @@ export default function Hero() {
         <div>
             <section className='hero'>
                 <div className="hero-content">
-                    <h1 ref={h1Ref}></h1>
-                    <div className="visually-hidden">I'm a Front End Developer</div>
-                    <p ref={pRef}></p>
-                    <div className="visually-hidden">Welcome to my website! I specialize in creating beautiful and responsive user interfaces using the latest web technologies.</div>
+                    <h1 ref={h1Ref} aria-live="polite"></h1>
+                    <p ref={pRef} aria-live="polite"></p>
                 </div>
                 <Skills />
             </section>
