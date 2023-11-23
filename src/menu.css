@@ -1,0 +1,92 @@
+/* BEGIN: Modern Menu Styles */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+ 
+  .menu-bg {
+    background-color: #f2f2f2;
+    display: flex;
+  } 
+
+  .menu {
+    margin: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style-type: none; /* Remove list styling */
+    opacity: 0;
+    animation: fadeOut 1s ease;
+  }
+  
+  .menu-open {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style-type: none; /* Remove list styling */
+    opacity: 1;
+    animation: fadeIn 1s ease;
+  }
+  
+  .menu-item {
+    margin-right: 5px; /* Decrease margin to make buttons closer together */
+    padding: 8px 12px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    background-color: #fff; /* Add background color to make buttons look like buttons */
+    border: 1px solid #ccc; /* Add border to make buttons look like buttons */
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .hamburger-icon, .hamburger-icon-open {
+    width: 3%;
+    position: absolute;
+    right: 1%;
+    top: .25%
+  }
+  
+  .hamburger-icon:hover, .hamburger-icon-open:hover {
+    /* Add hover effects for hamburger button */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger-icon:active, .hamburger-icon-open:active {
+    /* Add active effects for hamburger button */
+    transform: scale(.9);
+    transition: transform 0.3s ease;
+  }
+  /* END: Modern Menu Styles */
