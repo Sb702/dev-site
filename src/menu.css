@@ -18,48 +18,46 @@
   }
  
   .menu-bg {
-    background-color: #f2f2f2;
+    background-color: black;
     display: flex;
+    justify-content: space-between;
   } 
 
+  .menu-bg-open {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .menu {
-    margin: 0;
-    display: none;
-    justify-content: center;
+    margin: 1%;
+    display: flex;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     list-style-type: none; /* Remove list styling */
     opacity: 0;
     animation: fadeOut 1s ease;
   }
   
   .menu-open {
-    margin: 0;
+    margin: 1%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     list-style-type: none; /* Remove list styling */
     opacity: 1;
     animation: fadeIn 1s ease;
   }
   
   .menu-item {
-    margin-right: 5px; /* Decrease margin to make buttons closer together */
     padding: 8px 12px;
     color: #333;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 10%;
     transition: background-color 0.3s ease;
     background-color: #fff; /* Add background color to make buttons look like buttons */
     border: 1px solid #ccc; /* Add border to make buttons look like buttons */
     cursor: pointer; /* Add cursor pointer to indicate interactivity */
+    margin: 1.25vw;
   }
   
   .menu-item:hover {
@@ -72,10 +70,7 @@
   }
   
   .hamburger-icon, .hamburger-icon-open {
-    width: 3%;
-    position: absolute;
-    right: 1%;
-    top: .25%
+    max-height: 8vh;  
   }
   
   .hamburger-icon:hover, .hamburger-icon-open:hover {

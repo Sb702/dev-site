@@ -1,5 +1,8 @@
 import './App.css';
+import Skills from './skills';
+import About from './about';
 import Menu from './menu';
+import Hero from './hero';
 
 
 function App() {
@@ -9,12 +12,13 @@ function App() {
     <div className="App">
       <Menu />
 
-      <section className='hero'>
-        <div className="hero-content">
-          <h1>I'm a Front End Developer</h1>
-          <p>Welcome to my website! I spedliafnwelaiuhfiuawecialize in creating beautiful and responsive user interfaces using the latest web technologies.</p>
-        </div>
+      <Hero />
+      
+      <section className='about'>
+        <About />
       </section>
+
+
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Menu() {
 
   return (
     <header>
-      <nav className='menu-bg'>
+      <nav className={`menu-bg${menuOpen ? '-open' : ''}`}>
         <ul className={`menu${menuOpen ? '-open' : ''}`}>
           <li><a className="menu-item" href="#about">About</a></li>
           <li><a className="menu-item" href="#projects">Projects</a></li>

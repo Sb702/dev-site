@@ -1,11 +1,22 @@
 /* BEGIN: Modern Hero Section Styles */
-.hero {
-  background-color: #f9f9f9;
-  padding: 2%;
-  text-align: center;
-  height: 70vh;
+.about {
+
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(39, 39, 39));
+
+  /* background-image: url('../public/space.jpg');
+  background-size: contain;
+  background-repeat: repeat-y; */
+
 }
 
+
+.hero {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+ 
 .hero-title {
   font-size: 32px;
   font-weight: bold;
