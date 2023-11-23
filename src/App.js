@@ -1,5 +1,4 @@
 import './App.css';
-import Skills from './skills';
 import About from './about';
 import Menu from './menu';
 import Hero from './hero';
