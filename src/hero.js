@@ -31,8 +31,8 @@ export default function Hero() {
         <div>
             <section className='hero'>
                 <div className="hero-content">
-                    <h1 ref={h1Ref} aria-live="polite"></h1>
-                    <p ref={pRef} aria-live="polite"></p>
+                    <h1 ref={h1Ref} aria-label="dynamic content"></h1>
+                    <p ref={pRef} aria-label="dynamic content"></p>
                 </div>
                 <Skills />
             </section>
